@@ -1,23 +1,32 @@
-function Welcome()
-{
-    return
-    (
-        <>
-            <h1>BEAT</h1>
-            <h2> welcome to mawazin 2026</h2>
-            <p>rabat</p>
-        </>
+export function Home() {
+    return (
+        <div className="main-container"> 
+            <header className="hero-section">
+                <img src="/src/image/icon-icons.svg" alt="Mawazine Logo" className="logo" />
+                <Azol />
+                <Button/>
+            </header>
+           
+        </div>
+        
     );
 }
 
-export  default function Home()
-{
-    return
-    (
+function Azol() {
+    return (
+        <div className="azol-content">
+            <h1 className="title-beat">BEAT</h1>
+            <h2 className="welcome-text">Welcome to Mawazine 2026</h2>
+            <p className="location">Rabat</p>
+          
+        </div>
+    );
+    
+}
+function Button() {
+    return (
         <>
-        <Welcome/>
-
-    <img src="../image/icon-icons.svg" alt="#" />
+            <button className="nav-button">Programme</button>
         </>
     );
 }

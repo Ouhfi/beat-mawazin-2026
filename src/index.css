@@ -1,1 +1,57 @@
 
+.hero-section {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  justify-content: center; 
+  min-height: 100vh;     
+  text-align: center;    
+  font-family: sans-serif;
+  background-color: #1a1a1a;
+}
+
+
+.logo {
+  width: 120px;
+  height: 100 px;
+  margin-bottom: 20px;
+}
+
+
+.azol-content {
+  text-align: center; 
+}
+
+.title-beat {
+  font-size: 3rem;
+  color: #f4f3f3;
+  margin: 0;
+}
+
+.welcome-text {
+  color: #fdfcfc;
+  font-weight: normal;
+}
+
+.location {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.nav-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px; 
+    transition: 0.3s;
+}
+
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+.

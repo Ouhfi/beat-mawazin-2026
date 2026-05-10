@@ -1,10 +1,13 @@
-import { Accueil } from "./components/Accueil.tsx"
+import {Home} from './components/Accueil';
+import {ArtistsList} from './components/Programme';
 
 function App() {
  
   return (
     <>
-     <Accueil/>
+    <Home/>
+    <ArtistsList/>
+  
     </>
   );
 }
